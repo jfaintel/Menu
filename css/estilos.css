@@ -1,0 +1,92 @@
+﻿body
+{
+*background: url('../img/paisaje.jpg') no-repeat center center fixed;
+	background: url('../img/paisaje.jpg') no-repeat;
+	
+	/*Fondo inicia, fondo secundario*/
+	background-image:url('../img/paisaje.png'), url('../img/paisaje.jpg');
+	/*Posición de la primra imagen, de la segunda imagen */
+	background-position: center center, center center;	
+	
+	color: white;
+
+
+}
+.petalos
+{
+	width: 100px;
+	height: 100px;
+	border: 3px dotted black;
+}
+
+#uno
+{
+	left: 0;
+	border-radius: 50px 50px 0px 50px;
+	background-color: red;
+	
+}
+
+#dos
+{
+	left: 100px;
+	border-radius: 50px 50px 50px 0px;
+	background-color: blue;
+
+
+   
+}
+
+#tres
+{
+	left: 0;
+	top: 100px;
+	border-radius: 50px 0px 50px 50px;
+	background:green;
+}
+
+#cuatro
+{
+	left: 100px;
+	top: 100px;
+	border-radius: 0px 50px 50px 50px;
+	background-color: yellow;
+}
+
+.col
+{
+	float: left;
+	position: absolute;
+}
+
+.col2
+{
+	top: 100px;
+	float: left;
+	position: absolute;
+}
+
+#girar
+{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: auto;
+	margin-top: 60px;
+	transition: all 1s;
+}
+#girar:hover
+{
+	 -webkit-transform:rotate(1000deg);
+}
+
+h1
+{
+	font-family: 'Indie Flower', cursive;
+}
+p
+{
+	font-family: 'Indie Flower', cursive;
+}
+
+  
